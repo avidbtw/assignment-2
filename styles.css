@@ -1,0 +1,134 @@
+body {
+  /*  bg gradient */
+     background: rgb(0,81,165);
+  background: radial-gradient(circle, rgba(0,81,165,1) 0%, rgba(66,169,255,1) 100%);
+  
+    /* Screen bg color */
+    background-color: #f5f5f5;
+    /* Center content vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  form {
+    /* How big the width is */
+    width: 300px;
+    /* Add shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Padding for shadow */
+    padding: 20px;
+    /* Background color */
+    background-color: white;
+  /*   rounds corners */
+    border-radius: 2px;
+  }
+  
+  h2, h3, h4 {
+    /* Font style */
+    font-family: 'Roboto', sans-serif;
+    /* Text being in the center */
+    text-align: center;
+    /* Blue font color */
+    color: #2B2C30;
+    /* Margin */
+    margin: 20px 0;
+  }
+  
+  
+  
+  input {
+   /*  font style */
+    font-family: 'Open Sans';
+    /* size of the input */
+    width: 100%;
+    height: 50px;
+    /*   bg color of the input */
+    background-color: #DBDADA;
+    /* space between each input   */
+    margin: 10px auto 0;
+    /* Padding */
+    padding: 0 10px;
+    /* Border */
+    border: none;
+    /*   rounds corners */
+    border-radius: 2px;
+  
+  }
+  
+  
+  
+  button {
+    /* Font style */
+    font-family: 'Open Sans', sans-serif;
+    /* Font size */
+    font-size: 16px;
+    /* Size of button */
+    width: 100%;
+    /* Distance between the last input and the button */
+    margin: 30px auto;
+    /* Button size */
+    padding: 15px;
+    /* Button bg color */
+    background-color: #006ac3;
+    /* Blue font color */
+    color: #fff;
+    /* No border */
+    border: none;
+   /*  button location on the screen  */
+    margin: center;
+    /* Transition for the hover */
+    transition: background-color 0.3s ease;
+    /*   rounds corners */
+    border-radius: 2px;
+  }
+  
+  button:hover {
+    /* Dark blue hover color */
+    background-color: #0051a5;
+  }
+  
+  .errorMessage {
+    /* Font style */
+    font-family: 'Open Sans', sans-serif;
+    /* Font size */
+    font-size: 13px;
+    /* Text color for error message */
+    font-weight: 600;
+    color: #731717;
+    
+   
+  }
+  
+  
+  
+  .checkbox-input {
+    /* Hide default checkbox */
+  /*  appearance: none; */
+    width: 20px; /* Width of the checkbox */
+    height: 20px; /* Height of the checkbox */
+    cursor: pointer;
+  
+  }
+  
+  /* Style for checked checkbox */
+  .checkbox-input:checked {
+  color: #006ac3; /* Checkbox fill color when checked */
+  }
+  
+  /* Style for checkbox label */
+  .checkbox-label {
+  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: grey; /* Text color */
+    cursor: pointer;
+   vertical-align: 5px;
+  }
+  
+  img{
+    padding-left: 30px;
+    width: 240px;
+    height: 160px;
+  }
